@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int i,n,j;
+cout<<"N= "; cin>>n;
+int *A=new int [n];
+for (i=0;i<n;i++) {cin>>A[i];}
+for (i=0;i<n;i++) {
+for (j=i+1;j<n;j++) {
+if(A[i]==A[j]) {
+cout<<i<<" "<<ends;
+cout<<j<<" "<<ends;
+}
+}
+}
+
+return 0;
+}
